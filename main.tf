@@ -45,7 +45,7 @@ data "google_client_openid_userinfo" "whoareyou" {
 
 # Apply stage will only happen if there are resources to create
 resource "random_string" "rnd" {
-  length  = "4"
+  length  = "5"
   special = false
 }
 
