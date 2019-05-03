@@ -1,5 +1,7 @@
 # Investigations...
 
+variable "foobar" {}
+
 variable "credentials" {}
 
 # Use the latest 2.x Google provider >= 2.5.1
